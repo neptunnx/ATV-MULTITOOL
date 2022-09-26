@@ -1,1 +1,9 @@
-pip install -r requirementss.txt && cls && echo Installed dependencies successfully! && pause
+@echo off
+
+echo Installing dependencies...
+pip3 install --upgrade -r requirements.txt
+
+echo Installed Successfully!
+
+pause
+exit
