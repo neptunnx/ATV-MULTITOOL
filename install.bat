@@ -1,9 +1,1 @@
-@echo off
-
-echo Installing dependencies...
-pip install --upgrade -r requirementss.txt
-
-echo Installed Successfully!
-
-pause
-exit
+pip install -r requirementss.txt && cls && echo Installed dependencies successfully! && pause
