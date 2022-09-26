@@ -34,7 +34,7 @@ def discord():
        ░ ░  ░  ▒ ░░  ░  ░  ░        ░ ░ ░ ▒    ░░   ░  ░ ░  ░      ░      ░ ░ ░ ▒  ░ ░ ░ ▒    ░ ░   ░  ░  ░  
          ░     ░        ░  ░ ░          ░ ░     ░        ░                    ░ ░      ░ ░      ░  ░      ░  
        ░                   ░                           ░                                                     """))
-  print(Colorate.Vertical(Colors.red_to_blue,"[1] AVT Nuker\n[2] AVT Selfbot\n[3] Webhook Spammer\n[4] Vanity Checker\n[5] Discord BruteForcer"))
+  print(Colorate.Vertical(Colors.red_to_blue,"[1] AVT Nuker\n[2] AVT Account Nuker\n[3] Webhook Spammer\n[4] Vanity Checker\n[5] Discord BruteForcer"))
 
 
 def deadly():
@@ -95,7 +95,7 @@ while True:
       import nukebot
     elif q == "2":
       cls()
-      import selfbot
+      print("There is no account nuker yet.")
     elif q == "3":
       import webspam
     elif q == "6":
