@@ -1,0 +1,17 @@
+secret
+string
+discord.py==1.7.3
+requests
+threading
+time
+os
+random
+pystyle
+asyncio
+time
+urllib
+urllib2
+urllib.request
+json
+colorama
+base64
